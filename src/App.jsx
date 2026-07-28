@@ -213,6 +213,14 @@ export default function App() {
 
         * { box-sizing: border-box; }
 
+        html, body, #root {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        min-height: 100%;
+        background: #05060c;
+      }
+
         .app {
           background: var(--bg);
           color: var(--text);
